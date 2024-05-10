@@ -14,4 +14,4 @@ function numbers(){
     }
     console.log(valores/nota);
 }
-numbers(2);
+numbers();
