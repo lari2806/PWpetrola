@@ -8,6 +8,7 @@ function mmc(){
     for (var i = 1; i <= number1; i++){
         if (number1 % i == 0){
              mmc1.push(i);
+             
         }
     }
 
@@ -22,6 +23,9 @@ function mmc(){
 
     var mmcs = mmc2.find(elemento  => elemento === maxmmc || mmc1.find(elemento  => elemento === maxmmc2));
 
+    var mmc = (number1 * number2)/mmcs
+
+    console.log(mmc)
     console.log("O mmc de " + number1 + " e de " + number2+ " é " + mmcs);
     console.log(mmc1);
     console.log(mmc2);
