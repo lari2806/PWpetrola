@@ -1,2 +1,3 @@
 # PWpetrola
-atividades Sávio
+### Repositório criado para completar atividades do curso técnico.
+
